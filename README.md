@@ -1,4 +1,4 @@
-# ✅ Webhook Instructions – Upmedik (FINAL VERSION)
+# ✅ Webhook Instructions – Upmedik
 
 This document explains how to securely send SOAP notes to the Upmedik webhook.
 
@@ -31,7 +31,7 @@ https://upmedik.com/webhook/
 
 ---
 
-## ✅ Example JSON Payload (FULL)
+## ✅ Example JSON Payload
 
 ```json
 {
@@ -68,7 +68,7 @@ You will receive the following from Upmedik:
 
 ---
 
-## ✅ PHP Example (COPY–PASTE READY)
+## ✅ PHP Example
 
 ```php
 <?php
@@ -114,7 +114,7 @@ echo $response;
 
 ---
 
-## ✅ Python Example (COPY–PASTE READY)
+## ✅ Python Example
 
 ```python
 import json, base64, hashlib, hmac, requests
@@ -162,7 +162,7 @@ print(response.text)
 
 ---
 
-## ✅ JavaScript (Node.js) Example (COPY–PASTE READY)
+## ✅ JavaScript (Node.js) Example
 
 ```javascript
 const crypto = require("crypto");
